@@ -25,7 +25,7 @@ nav ul li a {
 }
 
 .special-line {
-  color: crimson;
+  color: darksalmon;
 }
 
 .box-content img {
@@ -60,7 +60,6 @@ nav ul li a {
 }
 
 .box-content {
-  /* border: 1px solid black; */
   width: 50%;
 }
 
@@ -95,4 +94,65 @@ nav ul li a {
 .my-recipies h1 {
   font-size: 35px;
   color: #333333;
+}
+
+.card-section {
+  padding: 0px 80px;
+}
+
+.card,
+.photo img {
+  width: 100%;
+}
+
+.card {
+  border-radius: 23px;
+  min-height: 400px;
+  margin: 0px 18px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card h2,
+.my-recipies h1 {
+  color: #333333;
+}
+
+.card p,
+.social p {
+  color: gray;
+}
+
+.social-info {
+  display: flex;
+  text-align: center;
+  margin: 0px 100px;
+  padding: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 15px;
+}
+
+.social {
+  margin: auto;
+}
+
+.social h1 {
+  font-size: 40px;
+  line-height: 0px;
+  color: #333333;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #333333;
+  margin-top: 80px;
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
+
+.developer {
+  text-decoration: none;
+  font-family: "Pacifico", cursive;
+  color: crimson;
 }
